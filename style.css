@@ -1,0 +1,55 @@
+body {
+  background-color: #c9917b;
+}
+
+form {
+  border-radius: 10%;
+  border: 2px solid rgb(3, 3, 3);
+  box-shadow: cornsilk;
+  background-color: rgb(233, 196, 141);
+}
+.id {
+  display: flex;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+}
+.id1 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+  text-align: center;
+  display: inline-flexbox;
+}
+
+.id3 {
+  display: flex;
+  font-size: 26px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+  align-content: center;
+  font-weight: bolder;
+}
+form ul li label {
+  float: left;
+  clear: left;
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+  /* font-family:Verdana, Arial, Helvetica, sans-serif; */
+  font-size: 20px;
+}
+.id3 input {
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  scrollbar-highlight-color: royalblue;
+  background-color: sandybrown;
+}
+:hover {
+  color: rgb(83, 43, 5);
+}
+[type="submit"] {
+  clear: left;
+}
