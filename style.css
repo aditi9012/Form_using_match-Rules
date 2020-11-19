@@ -1,12 +1,12 @@
 body {
-  background-color: #c9917b;
+  background-color: #e7cc72;
 }
 
 form {
   border-radius: 10%;
   border: 2px solid rgb(3, 3, 3);
   box-shadow: cornsilk;
-  background-color: rgb(233, 196, 141);
+  background-color: rgb(233, 141, 161);
 }
 .id {
   display: flex;
