@@ -12,10 +12,10 @@ window.formValidation = function() {
   let mobile = form["mobile"].value;
   let social = form["social"].value;
   const FORM_RULES = {
-    firstName: (exp, sourceObject) => /^[a-zA-Z ]+$/.test(exp),
-    lastName: (exp, sourceObject) => /^[a-zA-Z ]+$/.test(exp),
-    address: (exp, sourceObject) => /^[a-zA-Z0-9 ]+$/.test(exp),
-    mobile: (exp, sourceObject) => exp.length == 10,
+    firstName: (exp) => {console.log(sourceObject);return /^[a-zA-Z ]+$/.test(exp)},
+    lastName: (exp) => /^[a-zA-Z ]+$/.test(exp),
+    address: (exp) => /^[a-zA-Z0-9 ]+$/.test(exp),
+    mobile: (exp) => exp.length == 10,
     pinCode: (exp, sourceObject) => exp.length == 6
   };
 
